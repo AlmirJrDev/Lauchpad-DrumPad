@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>LaunchPad</title>
+</head>
+<body>
+   
+    <div  class="button-containers">
+        <img src="./assents/fundo.jpg" alt="">
+
+        <h1>LaunchPad</h1>
+
+        <audio src="./assents/kick.mp3"></audio>
+        <button id="kick"  class="button1">Kick</audio></button>
+
+        <audio id="hihataudio" src="./assents/hihat.wav"></audio>
+        <button id="hihat" class="button2">Hi Hat</button>
+
+        <audio id="snareaudio" src="./assents/snare.wav"></audio>
+        <button id="snare" class="button3">Snare</button>
+
+        <audio id="clapaudio" src="./assents/clap.wav"></audio>
+        <button id="clap" class="button4">Clap</button>
+    </div>
+        
+    
+</body>
+
+<script>
+  const kick = document.getElementById('kick').addEventListener("click",   function(){
+    const audio = document.querySelector('audio')
+    audio.currentTime= 0.001
+    audio.play() 
+  })
+ 
+  const hihat = document.getElementById('hihat').addEventListener("click",   function(){
+    const audiohihat = document.getElementById('hihataudio')
+    audiohihat.currentTime= 0.001
+    audiohihat.play() 
+  })
+  
+ 
+  const snare = document.getElementById('snare').addEventListener("click",   function(){
+    const audiosnare = document.getElementById('snareaudio')
+    audiosnare.currentTime= 0.001
+    audiosnare.play() 
+  })
+  
+  const clap = document.getElementById('clap').addEventListener("click",   function(){
+    const audioclap = document.getElementById('clapaudio')
+    audioclap.currentTime= 0.001
+    audioclap.play() 
+  })
+
+
+ 
+  
+  
+
+
+
+</script>
+</html>
