@@ -14,6 +14,7 @@ O projeto ainda está em desenvolvimento e as próximas atualizações serão vo
 - [x] Audio
 - [x] Layouts
 - [ ] Reponsivo
+- [ ] Melhoria nos Buttons
 
 <a href="https://almirjrdev.github.io/Lauchpad-DrumPad/">GitPages 💻
 
