@@ -15,7 +15,7 @@ O projeto ainda está em desenvolvimento e as próximas atualizações serão vo
 - [x] Layouts
 - [ ] Reponsivo
 
-<a href="https://almirjrdev.github.io/Lauchpad/">GitPages 💻
+<a href="https://almirjrdev.github.io/Lauchpad-DrumPad/">GitPages 💻
 
 
 
